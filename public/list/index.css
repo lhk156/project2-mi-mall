@@ -1,0 +1,138 @@
+.page-container{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.page-header{
+	height: 13.333333vw;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+}
+.page-header a{
+	color: #000000;
+}
+.input input.name{
+	border:0;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	background-color: #F4F4F4;
+	border-radius: 4.8vw;
+	padding-left: 5vw;
+}
+.input{
+	width: 70%;
+	height: 9.6vw;
+	background-color: #F4F4F4;
+	border-radius: 4.8vw;
+}
+ul.btn-list{
+	display: flex;
+	flex-shrink: 0;
+	justify-content: space-around;
+	font-size: 14px;
+	height: 10vw;
+	line-height: 10vw;
+}
+ul.btn-list li.click{
+	display: flex;
+	justify-content: space-around;
+	font-size: 14px;
+	color: #B4731F;
+}
+
+
+.page-box{	
+	display: flex;
+	flex-grow: 1;
+	height: 100%;
+	overflow: auto;
+}
+ul.page-main{
+	flex-grow: 1;
+} 
+ul.page-main li{
+	width: 90%;
+	margin: 10px auto;
+	display: flex;
+	background-color: #fff;
+}
+ul.page-main li img{
+	width: 33.6vw;
+}
+ul.page-main li .box p:nth-child(1){
+	font-size: 3.733333vw;
+	color: rgb(51, 51, 51);
+	margin-top: 4.5vw;
+	
+}
+ul.page-main li .box p:nth-child(2){
+	font-size: 2.933333vw;
+	color: rgb(136, 136, 136);
+	margin-top: 1.5vw;
+}
+ul.page-main li .box p:nth-child(3){
+	font-size: 4.533333vw;
+	color: rgb(250, 79, 11);
+	margin-top: 1.5vw;
+}
+ul.page-main li .box p:nth-child(4){
+	font-size: 2.666666vw;
+	color: rgb(250, 79, 11);
+	margin-top: 1.5vw;
+}
+
+
+/* 两种风格的排列方式，有show的显示，否则隐藏 */
+
+.page-box, .page-box-code{
+	display: none;
+	background-color: #F4F4F4;
+}
+.page-box.show, .page-box-code.show{
+	display: block;
+}
+
+.page-box-code{	
+	flex-grow: 1;
+	height: 100%;
+	overflow: auto;
+}
+.page-box-code ul.page-main{
+	/* height: 100%;
+	overflow: auto; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.page-box-code ul.page-main li{
+	width: 48%;
+	margin: 10px auto;	
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #fff;
+	padding-bottom: 5vw;
+}
+.page-box-code ul.page-main li img{
+	width: 100%;	
+}
+.page-box-code ul.page-main li .box{
+	width: 90%;
+}
+.page-box-code ul.page-main li p:nth-child(1){
+	padding-left: 5vw;
+	width: 30vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.page-box-code ul.page-main li p:nth-child(2){
+	padding-left: 3vw;
+	width: 40vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}

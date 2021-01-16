@@ -1,0 +1,65 @@
+/* 底部按钮 */
+.mi-nav {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 3px;
+}
+
+.mi-nav>li>a {
+	color: #666;
+	font-size: 10px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mi-nav i {
+	width: 24px;
+	height: 24px;
+	background: url(./nav_bg.png) no-repeat center center;
+	background-size: 100% 1000%;
+}
+
+.mi-nav li:nth-child(1) i{
+	background-position: 0 0;
+}
+
+.mi-nav li:nth-child(1).active i{
+	background-position: 0 11.111111%;
+}
+
+.mi-nav li:nth-child(2) i{
+	background-position: 0 22.222222%;
+}
+
+.mi-nav li:nth-child(2).active i{
+	background-position: 0 33.333333%;
+}
+
+.mi-nav li:nth-child(3) i{
+	background-position: 0 44.444444%;
+}
+
+.mi-nav li:nth-child(3).active i{
+	background-position: 0 55.555555%;
+}
+
+.mi-nav li:nth-child(4) i{
+	background-position: 0 66.666666%;
+}
+
+.mi-nav li:nth-child(4).active i{
+	background-position: 0 77.777777%;
+}
+
+.mi-nav li:nth-child(5) i{
+	background-position: 0 88.888888%;
+}
+
+.mi-nav li:nth-child(5).active i{
+	background-position: 0 100%;
+}

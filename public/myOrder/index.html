@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="short icon" href="/public/favicon.ico">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/public/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="/public/fonts/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="/public/swiper/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="/public/picker/regions_picker_m.css" />
+		<link rel="stylesheet" href="/public/layer_mobile/layer.css /">
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<title>我的订单</title>
+	</head>
+	<body>
+
+		<div class="page-container">
+			<div class="page-header">
+				<i class="iconfont icon-back"></i>
+				<span>我的订单</span>
+				<img src="img/icon_search_black.png" alt="">
+			</div>
+			<ul class="tab">
+				<li class="active">全部</li>
+				<li>待付款</li>
+				<li>待收货</li>
+				<li>退款订单</li>
+				<li>已收货</li>
+			</ul>
+			<div class="order-message">
+				<div class="active  hide-scroll">
+					<ul class="allOrder">
+
+					</ul>
+				</div>
+				<div class=" hide-scroll">
+					<ul class="alreadyPaid">
+
+					</ul>
+				</div>
+				<div class=" hide-scroll">
+					<ul class="received">
+
+					</ul>
+				</div>
+				<div class=" hide-scroll">
+					<div class="noMessage">
+						<img src="img/no_result_order.png" alt="">
+						<p>目前没有退款订单哦</p>
+					</div>
+				</div>
+				<div class=" hide-scroll">
+					<div class="noMessage">
+						<img src="img/no_result_order.png" alt="">
+						<p>目前没有已收货订单哦</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<script src="/public/js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/js/jQuery-extend.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/swiper/swiper-bundle.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/picker/regions.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/picker/regions_picker_m.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/layer_mobile/layer.js"></script>
+		<script src="index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

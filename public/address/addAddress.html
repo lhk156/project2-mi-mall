@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="short icon" href="/public/favicon.ico">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/public/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="/public/picker/regions_picker_m.css" />
+		<link rel="stylesheet" type="text/css" href="/public/layer_mobile/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<title>地址管理</title>
+	</head>
+	<body>
+
+
+		<div class="page-container">
+			<div class="page-header">
+				<li class="back">
+					<img src="img/icon_arrow_left_black.png" />
+				</li>
+				<span>新增地址</span>
+			</div>
+			<div class="page-content-add">
+				<ul class="add">
+					<li>
+						<span>收货姓名</span>
+						<input class="receiveName" type="text" placeholder="请输入收货人姓名" />
+					</li>
+					<li>
+						<span>手机号码</span>
+						<input class="receivePhone" type="text" placeholder="请输入收货人电话" />
+					</li>
+					<li>
+						
+						<span>所在地区</span>
+						<input class="receiveRegion regions-picker" type="text" placeholder="请选择省/市/区/街道" />
+					</li>
+					<li>
+						<span>详细地址</span>
+						<input class="receiveDetail" type="text" placeholder="请输入街道地址" />
+					</li>
+				</ul>
+				<div class="default">
+					<i></i>
+					<span>设为默认地址</span>
+				</div>
+				<div class="save">
+					保存
+				</div>
+			</div>
+		</div>
+
+
+		<script src="/public/js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/picker/regions.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/picker/regions_picker_m.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/layer_mobile/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

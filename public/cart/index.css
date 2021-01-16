@@ -1,0 +1,116 @@
+.page-header{   
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    font-size: 5vw;
+    line-height: 20vw;
+    font-weight: bolder;
+    width: 90%;
+    margin: 0 auto;
+}
+.page-container{
+    overflow: hidden;
+    height: 100vh;
+}
+.scrollPage{
+    height: 100vh;
+    overflow: auto;
+}
+.bcimg{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background: url("/cart/img/bg_page_header.png") no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    background-size: cover;
+}
+.page-header a{
+    color: #eee;
+}
+.page-header span:nth-child(3){
+    font-size: 4vw;
+}
+
+ul.page-content img{
+    width: 30%;
+}
+ul.page-content li{
+    width: 90%;
+    margin: 5vw auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul.page-content>li{
+    width: 90%;
+    /* height: 45vw; */
+    background-color: #f4f4f4;
+    border-radius: 5vw;
+    padding: 3vw;
+}
+ul.page-content span.price{
+    color: #bf1111;
+}
+ul.product-num{
+    display: flex;
+    width: 30vw;
+    margin-left: 10vw;
+}
+ul.product-num li{
+    background-color: #eee;
+    color: #333;
+}
+ul.product-num li:nth-child(1){
+    border-radius: 3vw 0 0 3vw;
+    background-color: #fff;
+}
+ul.product-num li:nth-child(3){
+    border-radius: 0 3vw 3vw 0;
+    background-color: #fff;
+}
+.allProduct{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer{
+    width: 100%;
+    height: 14.4vw;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    line-height: 14.4vw;
+    /* padding-left: 5vw; */
+    display: flex;
+    justify-content: space-around;
+}
+.product-messages{
+    flex: 1;
+}
+
+.settlement.show, .delete.show{
+    display: block;
+    width: 30%;
+    height: 10vw;
+    line-height: 10vw;
+    background-color: #D91914;
+    color: #fff;
+    text-align: center;
+    border-radius: 5vw;
+    margin-top: 2vw;
+}
+.settlement, .delete{
+    display: none;
+}
+
+.carry-page, .edit-page{
+    display: none;
+}
+.carry-page.show, .edit-page.show{
+    display: block;
+    font-size: 4vw;
+}
